@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>weather_dataset_stage2.xls
+Query=`Sheet 1 - weather_dataset$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Temperature" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Average humidity (%" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Average dewpoint (°F" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Average barometer (in" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Average windspeed (mph" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Average gustspeed (mph" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Average direction (°deg" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Rainfall for month (in" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name="Rainfall for year (in" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Maximum rain per minute" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Maximum temperature (°F" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Minimum temperature (°F" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Maximum humidity (%" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Minimum humidity (%" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Maximum pressure" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Minimum pressure" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Maximum windspeed (mph" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Maximum gust speed (mph" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Maximum heat index (°F" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name="Date1" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" Month" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name=" diff_pressure" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+            <Field name="F24" size="255" source="File: C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_dataset_stage2.xls|||`Sheet 1 - weather_dataset$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" />
+            <SelectField field=" Temperature" selected="True" />
+            <SelectField field=" Average humidity (%" selected="True" />
+            <SelectField field=" Average dewpoint (°F" selected="True" />
+            <SelectField field=" Average barometer (in" selected="True" />
+            <SelectField field=" Average windspeed (mph" selected="True" />
+            <SelectField field=" Average gustspeed (mph" selected="True" />
+            <SelectField field=" Average direction (°deg" selected="True" />
+            <SelectField field=" Rainfall for month (in" selected="True" />
+            <SelectField field="Rainfall for year (in" selected="True" />
+            <SelectField field=" Maximum rain per minute" selected="True" />
+            <SelectField field=" Maximum temperature (°F" selected="True" />
+            <SelectField field=" Minimum temperature (°F" selected="True" />
+            <SelectField field=" Maximum humidity (%" selected="True" />
+            <SelectField field=" Minimum humidity (%" selected="True" />
+            <SelectField field=" Maximum pressure" selected="True" />
+            <SelectField field=" Minimum pressure" selected="True" />
+            <SelectField field=" Maximum windspeed (mph" selected="True" />
+            <SelectField field=" Maximum gust speed (mph" selected="True" />
+            <SelectField field=" Maximum heat index (°F" selected="True" />
+            <SelectField field=" diff_pressure" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="390" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Date" />
+            <Field name=" Temperature" />
+            <Field name=" Average humidity (%" />
+            <Field name=" Average dewpoint (°F" />
+            <Field name=" Average barometer (in" />
+            <Field name=" Average windspeed (mph" />
+            <Field name=" Average gustspeed (mph" />
+            <Field name=" Average direction (°deg" />
+            <Field name=" Rainfall for month (in" />
+            <Field name="Rainfall for year (in" />
+            <Field name=" Maximum rain per minute" />
+            <Field name=" Maximum temperature (°F" />
+            <Field name=" Minimum temperature (°F" />
+            <Field name=" Maximum humidity (%" />
+            <Field name=" Minimum humidity (%" />
+            <Field name=" Maximum pressure" />
+            <Field name=" Minimum pressure" />
+            <Field name=" Maximum windspeed (mph" />
+            <Field name=" Maximum gust speed (mph" />
+            <Field name=" Maximum heat index (°F" />
+            <Field name=" diff_pressure" />
+            <Field name="Date1" selected="False" />
+            <Field name=" Month" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>replace([_CurrentField_],"'","")</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>replace([_CurrentField_],"'","")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="522" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Date" />
+            <Field field=" Temperature" />
+            <Field field=" Average humidity (%" />
+            <Field field=" Average dewpoint (°F" />
+            <Field field=" Average barometer (in" />
+            <Field field=" Average windspeed (mph" />
+            <Field field=" Average gustspeed (mph" />
+            <Field field=" Average direction (°deg" />
+            <Field field=" Rainfall for month (in" />
+            <Field field="Rainfall for year (in" />
+            <Field field=" Maximum rain per minute" />
+            <Field field=" Maximum temperature (°F" />
+            <Field field=" Minimum temperature (°F" />
+            <Field field=" Maximum humidity (%" />
+            <Field field=" Minimum humidity (%" />
+            <Field field=" Maximum pressure" />
+            <Field field=" Minimum pressure" />
+            <Field field=" Maximum windspeed (mph" />
+            <Field field=" Maximum gust speed (mph" />
+            <Field field=" Maximum heat index (°F" />
+            <Field field=" diff_pressure" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="654" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">2-3901</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="774" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="8">C:\Users\Mythili\Downloads\Uncleaned Data Set Weather Forecast -20230207T055705Z-001\Uncleaned Data Set Weather Forecast\weather_clean.xls|||weather_clean</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PostSQL />
+            <PreSQL />
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>weather_clean.xls
+Query=weather_clean</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Unique" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>weather_workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7736429d-cdd1-455d-9b73-1466f75bc2d2" />
+      <Telemetry>
+        <PreviousWorkflowId value="8e4db109-77af-4684-8350-813c2a5d6865" />
+        <OriginWorkflowId value="8e4db109-77af-4684-8350-813c2a5d6865" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
