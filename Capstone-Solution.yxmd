@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="366" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Supplied Benchmark Data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="198" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Supplied Survey Data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Engagment Data.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Engagment Data.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field 1" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 2" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 3" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 4" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 5" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 6" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 7" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 8" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 9" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 10" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 11" size="255" source="File: C:\Users\Mythili\Downloads\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Name" />
+            <Field name="1" />
+            <Field name="2" />
+            <Field name="3" />
+            <Field name="4" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Department</c>
+              <c>Customer Operations</c>
+              <c>Customer Support</c>
+              <c>HR</c>
+              <c>Training</c>
+            </r>
+            <r>
+              <c>Q1:I understand how my role contributes to the company's mission.</c>
+              <c>4.1</c>
+              <c>5.8</c>
+              <c>5.3</c>
+              <c>5.1</c>
+            </r>
+            <r>
+              <c>Q2:My work is recognized by leadership.</c>
+              <c>4.8</c>
+              <c>4.6</c>
+              <c>5.4</c>
+              <c>4.4</c>
+            </r>
+            <r>
+              <c>Q3:I have access to the resources I need to achieve success.</c>
+              <c>6.1</c>
+              <c>5.7</c>
+              <c>5.2</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Q4:I would recommend this workplace.</c>
+              <c>5.8</c>
+              <c>4.2</c>
+              <c>6.2</c>
+              <c>4.5</c>
+            </r>
+            <r>
+              <c>Q5:I feel informed of Senior Leadership's strategies and vision.</c>
+              <c>5.2</c>
+              <c>4.6</c>
+              <c>4.1</c>
+              <c>3.9</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="210" y="54" width="528" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Capstone Exercise</Text>
+          <Font name="Montserrat ExtraBold" size="21.75" style="1" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="102" width="792" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Use what you've learned to make the engagement survey results more end-user oriented. Start by calculating the Departmental averages for each question. 
+
+Then add in the Industry Benchmark data and compare the results. Scores averaging 1 point below benchmark should be flagged for REVIEW. ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="978" y="78" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Final State</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="990" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Final State - Capstone.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Final State - Capstone.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Department" size="2048" source="Summarize: GroupBy - Department" type="V_String" />
+            <Field name="#" size="2" source="Transpose:" type="String" />
+            <Field description="TextToColumns: Parsed from Name" name="Question" size="65" source="TextToColumns: Parsed from Name" type="V_String" />
+            <Field name="Score" source="Summarize: (Multiple Sources)" type="Double" />
+            <Field name="Benchmark" source="TextInput:" type="Double" />
+            <Field name="Delta" source="Formula: [Score]-[Benchmark]" type="Double" />
+            <Field name="Review" size="1073741823" source="Formula: if [Delta]&lt;-1 then &quot;REVIEW&quot; else &quot;&quot; endif" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="198" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields />
+          <DataFields>
+            <Field field="Field 1" selected="True" />
+            <Field field="Field 2" selected="True" />
+            <Field field="Field 3" selected="True" />
+            <Field field="Field 4" selected="True" />
+            <Field field="Field 5" selected="True" />
+            <Field field="Field 6" selected="True" />
+            <Field field="Field 7" selected="True" />
+            <Field field="Field 8" selected="True" />
+            <Field field="Field 9" selected="True" />
+            <Field field="Field 10" selected="True" />
+            <Field field="Field 11" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="318" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields />
+          <HeaderField field="Name" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="2048" source="CrossTab:Header:Name:Field 1:Concat:" type="V_String" />
+            <Field name="Field_2" size="2048" source="CrossTab:Header:Name:Field 2:Concat:" type="V_String" />
+            <Field name="Field_3" size="2048" source="CrossTab:Header:Name:Field 3:Concat:" type="V_String" />
+            <Field name="Field_4" size="2048" source="CrossTab:Header:Name:Field 4:Concat:" type="V_String" />
+            <Field name="Field_5" size="2048" source="CrossTab:Header:Name:Field 5:Concat:" type="V_String" />
+            <Field name="Field_6" size="2048" source="CrossTab:Header:Name:Field 6:Concat:" type="V_String" />
+            <Field name="Field_7" size="2048" source="CrossTab:Header:Name:Field 7:Concat:" type="V_String" />
+            <Field name="Field_8" size="2048" source="CrossTab:Header:Name:Field 8:Concat:" type="V_String" />
+            <Field name="Field_9" size="2048" source="CrossTab:Header:Name:Field 9:Concat:" type="V_String" />
+            <Field name="Field_10" size="2048" source="CrossTab:Header:Name:Field 10:Concat:" type="V_String" />
+            <Field name="Field_11" size="2048" source="CrossTab:Header:Name:Field 11:Concat:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="462" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields />
+          <DataFields>
+            <Field field="Field_1" selected="True" />
+            <Field field="Field_2" selected="True" />
+            <Field field="Field_3" selected="True" />
+            <Field field="Field_4" selected="True" />
+            <Field field="Field_5" selected="True" />
+            <Field field="Field_6" selected="True" />
+            <Field field="Field_7" selected="True" />
+            <Field field="Field_8" selected="True" />
+            <Field field="Field_9" selected="True" />
+            <Field field="Field_10" selected="True" />
+            <Field field="Field_11" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="582" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Value</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="," />
+          <NumFields value="14" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="678" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Value" selected="False" />
+            <SelectField field="1" selected="False" />
+            <SelectField field="2" selected="True" rename="Name" />
+            <SelectField field="3" selected="False" />
+            <SelectField field="4" selected="True" rename="Department" />
+            <SelectField field="5" selected="True" rename="Q1-No" />
+            <SelectField field="6" selected="True" rename="Q1" type="Int16" size="2" />
+            <SelectField field="7" selected="True" rename="Q2-No" />
+            <SelectField field="8" selected="True" rename="Q2" type="Int16" size="2" />
+            <SelectField field="9" selected="True" rename="Q3-No" />
+            <SelectField field="10" selected="True" rename="Q3" type="Int16" size="2" />
+            <SelectField field="11" selected="True" rename="Q4-No" />
+            <SelectField field="12" selected="True" rename="Q4" type="Int16" size="2" />
+            <SelectField field="13" selected="True" rename="Q5-No" />
+            <SelectField field="14" selected="True" rename="Q5" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="750" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Department" action="GroupBy" rename="Department" />
+            <SummarizeField field="Q1" action="Avg" rename="Q1" />
+            <SummarizeField field="Q2" action="Avg" rename="Q2" />
+            <SummarizeField field="Q3" action="Avg" rename="Q3" />
+            <SummarizeField field="Q4" action="Avg" rename="Q4" />
+            <SummarizeField field="Q5" action="Avg" rename="Q5" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="210" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Name" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Name" selected="False" />
+            <Field field="1" selected="True" />
+            <Field field="2" selected="True" />
+            <Field field="3" selected="True" />
+            <Field field="4" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="498" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Skip</Mode>
+          <N>4</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Skip 1st 4 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains([Name],&quot;Q1&quot;) THEN &quot;Q1&quot; ELSEIF Contains([Name],&quot;Q2&quot;) THEN &quot;Q2&quot;  &#xA;ELSEIF Contains([Name],&quot;Q3&quot;) THEN &quot;Q3&quot;&#xA;ELSEIF Contains([Name],&quot;Q4&quot;) THEN &quot;Q4&quot;&#xA;ELSE &quot;Q5&quot;&#xA;ENDIF" field="Q-No" size="2147483647" type="V_String" />
+            <FormulaField expression="IF [Name2] = &quot;1&quot; THEN &quot;Customer Operations&quot; ELSEIF [Name2] = &quot;2&quot; THEN &quot;Customer Support&quot;  &#xA;ELSEIF [Name2] = &quot;3&quot; THEN &quot;HR&quot;&#xA;ELSE &quot;Training&quot;&#xA;ENDIF" field="Name" size="65" type="V_String" />
+            <FormulaField expression="IF [Q-No] = &quot;Q1&quot; THEN &quot;I understand how my role contributes to the company's mission.&quot; ELSEIF [Q-No] = &quot;Q2&quot; THEN &quot;My work is recognized by leadership.&quot; ELSEIF [Q-No] = &quot;Q3&quot; THEN &quot;I have access to the resources I need to achieve success.&quot; ELSEIF [Q-No] = &quot;Q4&quot; THEN &quot;I would recommend this workplace.&quot; ELSE &quot;I feel informed of Senior Leadership's strategies and vision.&quot; ENDIF" field="Question" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Q-No = IF Contains([Name],"Q1") THEN "Q1" ELSEIF Contains([Name],"Q2") THEN "Q2"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="594" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Department" />
+            <SelectField field="Q-No" selected="True" />
+            <SelectField field="Question" selected="True" />
+            <SelectField field="Value" selected="True" rename="Benchmark-Score" type="Double" size="8" />
+            <SelectField field="Name2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="846" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Department" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Department" selected="False" />
+            <Field field="Q1" selected="True" />
+            <Field field="Q2" selected="True" />
+            <Field field="Q3" selected="True" />
+            <Field field="Q4" selected="True" />
+            <Field field="Q5" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="942" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Department" />
+            <Field field="Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Department" />
+            <Field field="Q-No" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Department" selected="True" input="Left_" />
+                <SelectField field="Right_Q-No" selected="True" input="Right_" />
+                <SelectField field="Right_Question" selected="True" input="Right_" />
+                <SelectField field="Left_Value" selected="True" input="Left_" />
+                <SelectField field="Right_Benchmark-Score" selected="True" input="Right_" />
+                <SelectField field="Left_Name" selected="False" input="Left_" />
+                <SelectField field="Right_Department" selected="False" rename="Right_Department" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1038" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Value] - [Benchmark-Score]" field="Delta" size="8" type="Double" />
+            <FormulaField expression="IF [Delta] &lt; -1 THEN &quot;REVIEW&quot; ELSE &quot; &quot; ENDIF" field="Review" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Delta = [Value] - [Benchmark-Score]
+Review = IF [Delta] &lt; -1 THEN "REVIEW" ELSE ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1230" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Delta" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Delta - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings>
+        <Position x="1134" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Department","Q-No","Question","Value","Benchmark-Score","Delta","Review"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="76" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="76" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Join" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="79" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output26" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Capstone-Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="bd1b25bd-74a2-40d0-aebc-3a1f2d302863" />
+      <Telemetry>
+        <PreviousWorkflowId value="c9e57c5c-1fab-4f49-8087-eb95acf045e5" />
+        <OriginWorkflowId value="c9e57c5c-1fab-4f49-8087-eb95acf045e5" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
